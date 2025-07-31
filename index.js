@@ -14,7 +14,7 @@ app.use(authRoutes);
 app.use(cartRoutes);
 
 mongoose.connect(
-  "mongodb+srv://anshulojha1214:fY8vsuBKjs9Z1Bs4@cluster0.e0a7mlr.mongodb.net/ecommerce",
+  "mongodb+srv://sathvikpalivela0:ricky@cluster0.a5lk5xi.mongodb.net/flipkart?retryWrites=true&w=majority&appName=Cluster0",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
